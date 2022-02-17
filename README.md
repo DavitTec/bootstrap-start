@@ -6,9 +6,9 @@ To setup a compatbile Jekyll basic environment installed locally.
 ## Installation
 
 ```bash
-$ git clone git://github.com/davittec/bootstrap-start
-$ cd bootstrap-start
-$ ./script/bootstrap
+git clone git://github.com/davittec/bootstrap-start
+cd bootstrap-start
+./script/bootstrap
 ```
 
 ## Usage
