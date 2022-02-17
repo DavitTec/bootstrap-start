@@ -9,13 +9,21 @@
 # AuthGroupFile /dev/null
 # require valid-user
 
-
 # -- Error Docs --
-ErrorDocument 404 /404/
+#ErrorDocument 404 /404/
 
 # -- 301 Redirects --
 # Redirect 301 /oldlocation/oldlocation/ /newlocation/
 # Redirect 301 /oldlocation/ /
+
+# -- Rewrites --
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond favicon.ico
+# RewriteRule .* path/to/shared/favicon.ico [L]
+# or use below
+# RewriteRule "^(.+)favicon\.ico(|\?.+)$"  "/favicon.ico" [PT]
 
 # -- Browser Caching --
 <IfModule mod_expires.c>
