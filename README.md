@@ -5,6 +5,9 @@ To setup a compatbile Jekyll basic environment installed locally.
 
 ## Installation
 
+To get started you need to make sure your platform has the basic setup.
+
+Open terminal and copy and paste the following script>
 ```bash
 git clone git://github.com/davittec/bootstrap-start
 cd bootstrap-start
