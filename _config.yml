@@ -1,7 +1,7 @@
 title: DavitTec
 domain: davittec.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://davittec.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: ""  # place folder name if the site is served in a subfolder
+baseurl: "/"  # place folder name if the site is served in a subfolder
 
 email: info@davit.ie
 description:
@@ -12,7 +12,7 @@ description:
 twitter_username: _davit
 github_username:  DavitTec
 
-#theme: jekyll-theme-davit
+# theme: jekyll-theme-davit
 #plugins:
 #  - jekyll-feed
 #remote_theme: pages-themes/minimal@v0.2.0
@@ -31,9 +31,8 @@ exclude:
    - gemfiles/
    - Gemfile
    - Gemfile.lock
-   - _site
+#   - _site
    - node_modules/
-   - jekyll-theme-minimal.gemspec
    - script/
 #   - vendor/bundle/
 #   - vendor/cache/
