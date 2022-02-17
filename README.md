@@ -11,7 +11,7 @@ cd bootstrap-start
 ./script/bootstrap
 ls -l #list files
 
-echo "	You can not run local service
+echo "	You can now run web local service
 	$ bundle exec jekyll serve
 
 "
