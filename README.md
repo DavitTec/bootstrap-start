@@ -10,6 +10,7 @@ git clone git://github.com/davittec/bootstrap-start
 cd bootstrap-start
 ./script/bootstrap
 ls -l
+
 ```
 
 ## Usage
