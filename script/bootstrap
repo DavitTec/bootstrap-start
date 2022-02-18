@@ -1,3 +1,8 @@
 #! /bin/bash
-
+# TODO: A lot could be done here
+# 1. To run a Generic installation to use DEFAULT Assets Pack
+# 2. To setup Variables user input to initialse BRAND.
+# 3. To determine with TARGET platform 
+# 4. To TEST and verify TARGET options
+# 5. Pretest and Postest : how about DOCTOR(s)?
 bundle install
